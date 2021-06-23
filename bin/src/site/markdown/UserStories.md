@@ -1,0 +1,10 @@
+## User stories
+| User Stories                                                                                	| Priority 	| Status    	| Sucess                                              	| Failure                                             	|
+|---------------------------------------------------------------------------------------------	|----------	|-----------	|-----------------------------------------------------	|-----------------------------------------------------	|
+| User want to add a doctor to the system                                                     	| High     	| Doing     	| Doctor added to Database                            	| Error message with the descritption of error source 	|
+| User want to add a patient to the system                                                    	| High     	| Doing     	| Patient added to Database                           	| Error message with the descritption of error source 	|
+| A user want to keep track of free devices list                                              	| High     	| Doing     	| Busy / Free devices list                            	| Unavailable Device List                             	|
+| A user want to assign a device to a patient                                                 	| High     	| Doing     	| Device assigned to Patient                          	| Device busy or unaviablle                           	|
+| A user want to make sure doctors can access their patients details and only their patients  	| Medium   	| Scheduled 	| Doctor can see his patients and their details       	| Error message for device problems or other..        	|
+| A user want to know which doctor is supervising which patient                               	| Medium   	| Scheduled 	| Clear schema for Doctors and patients relationships 	| Error                                               	|
+| A User want the system to be standarised to be adapted to time zones , languages .. etc     	| Low      	| Scheduled 	| available features to change language time          	| Error                                               	|

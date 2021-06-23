@@ -1,0 +1,60 @@
+Evaluation Project Patient Monitoring (PM): Team 3
+==================================================
+
+Sprint 2
+========
+
+Compile/Execute:
+----------------
+
+OK
+
+
+Documentation:
+--------------
+
+Usecases: Numbering of extensions unclear, I gave an example on paper with clear numbering.
+  (-0.25)
+
+DCD: wrong arrow
+  (-0.25)
+  
+Login:
+
+  Usecase: OK
+
+  SSD: OK
+
+  SD: OK
+
+  DCD: OK
+  
+Add Patient:
+
+  Usecase:
+    Main success Scenario
+      What does the system ?
+    (-0.5)
+
+  SSD: OK
+
+  SD: OK
+
+  DCD: OK
+  
+Implementation
+--------------
+
+  PatientController:
+    Good new patient is created in Doctor class, so coupling is reduced.
+
+
+Tests: OK
+------
+   
+
+Test coverage: OK
+--------------
+
+
+Total: 21 / 22

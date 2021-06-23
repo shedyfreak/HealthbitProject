@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="P.M." xmlns="http://maven.apache.org/DECORATION/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+  <bannerLeft>
+    <name>BFH</name>
+    <src>images/logo-bfh.png</src>
+    <href>http://www.ti.bfh.ch</href>
+  </bannerLeft>
+  <bannerRight>
+    <name>Patient Monitoring</name>
+    <src>images/pm.png</src>
+  </bannerRight>
+  <version position="right" />
+  <body>
+ 
+    <menu name="Documentation">
+      <item name="About" href="index.html" />
+      <item name="Vision" href="Vision.html" />
+      <item name="Stakeholders Description" href="Stakeholders.html" />
+      <item name="Actors" href="Actors.html" />
+      <item name="User Stories" href="UserStories.html" />
+      <item name="Domain Model" href="DomainModel.html" />
+      <item name="Object Diagram" href="ObjectDiagram.html" />
+      <item name="Glossary" href="Glossary.html" />
+      <item name="System Sequence Diagram" href="SystemSequenceDiagram.html" />
+    
+    </menu>
+    <menu name="Resources">
+        <item name="Markdown" href="http://commonmark.org" target="_blank"  />
+      <item name="Markdown 60 seconds" href="http://commonmark.org/help" target="_blank"  />
+    </menu>
+
+    <menu ref="reports" />
+
+  </body>
+</project>

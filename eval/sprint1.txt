@@ -1,0 +1,113 @@
+Evaluation Project Patient Monitoring (PM): Team 3
+==================================================
+
+Sprint 1
+========
+
+Documentation:
+-------------
+
+NEXT SPRINT: ADD MENU IN SITE WEBSITE NOT EVERYTHING IN VISION. IT DOES NOT MAKE SENSE.
+
+Vision and Stakeholders
+
+    A more detailed description (textual) of each stakeholder might be usefull.
+    It is important to have a contact address.
+    (-0.25)
+
+User Stories
+
+    Format of user stories does not conform with the slides.
+    (-0.25)
+
+    User stories must have a success and failure entry
+    (-0.25)
+
+
+Domain Model
+
+		Description of concepts is missing.
+
+		Description of associations and multiplicities are OK but a bit too short.
+
+    Association Patient 1 --- 1 Device should be Patient 0,1 --- 0,1
+		(-0.25)
+
+    In Doctor & Admin concepts: attribute password and username are missing.
+		as well as the unique identifier for Patient 
+		(-0.25)
+
+		Add {ordered} in contains association Measurement side.
+		
+Actors
+
+    OK
+
+    You should describe each actor with a paragraph
+
+    (E-Mail Service is not necessary but not false)
+    
+
+Non functional requirements
+
+    Some important non functional requirement are missing
+
+        
+          large number of patient
+          ** many doctor can use simultaneously the system **
+
+          some of non functional requirements you mentionned are not relevant
+          Manageability for example
+          
+     (-0.25)
+    
+Glossary
+
+    Ok but too short, I am sure that other terms might be relevant.
+
+Product Backlog
+
+    No product backlog (see user stories) estimation is missing
+		(-0.25)
+
+Object Diagram
+
+It is not an Object Diagram but a Class diagram
+
+  Information not required but very usefull, we will see that we need such diagram for the implementation.
+	Design Class Diagram (DCD).
+	(+0.25) bonus.
+
+
+Implementation:
+--------------
+
+Patient:
+
+Constructor: Some parameter of the constructor are not necessary, in particular Device, ObservationPeriod because such informations are not known during the creation of a Patient.
+
+ObservationPeriod: Association with Measure is missing
+
+Measurement: requires some getters
+
+Doctor: getPassword does not make sense
+
+Device: OK
+
+Javadoc: several class do not have any documentation
+  (-0.5)
+
+Tests:
+
+Test coverage:  Not satisfactory tests
+
+  inconsistance in import Assertions
+  useless import Device
+
+  useless/empty @BeforeEach
+
+  Nothing is tested except one test of 
+  (-1.5)
+
+---------------
+Total 21.5 / 25

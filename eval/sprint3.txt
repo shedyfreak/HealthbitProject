@@ -1,0 +1,49 @@
+Evaluation Projet Patient Monitoring (PM): Team 3
+=================================================
+
+Sprint 3
+========
+
+Start Observation
+
+  Use case:
+    the creation of the Obervation Periode is missin as well as the initialization/start of the device
+		(-0.5)
+
+  SSD: ok
+
+  SD:
+	  It important to link the device with the new Observation Periode to be able to store the measure performed by the devices.
+		(-0.5)		
+
+  DCD: missing
+	(-0.25)
+
+  Implementation: seems OK
+
+
+End Observation:
+
+  nothing for End Observation, I consider that it will be done in sprint 4.
+
+Consult Observation :
+  ditto
+	
+
+Testing: Ok
+
+
+Package diagram: package for UI layer is missing
+AI graph: Where is the UI
+(0.25)
+
+
+User Interface: OK
+
+I was unable to add a patient without NullPointerException
+(-0.5)
+
+
+--
+Total points: 23 / 25
+

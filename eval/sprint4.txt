@@ -1,0 +1,54 @@
+Evaluation Projet Patient Monitoring (PM): Team 3
+=================================================
+
+Sprint 4
+========
+
+Documentation:
+-------------
+
+Use Case: OK
+
+SSD: OK
+
+SD: OK
+
+DCD: OK
+
+Package Diagram:
+
+  The package diagram is not correct.
+
+  There is no package UI neither in source code nor in Package diagram.
+
+  The helper package is not represented in this diagram
+	(-0.25)
+
+  Where are the name of the packages?
+	(-0.25)
+
+  The Controllers should be in domain layer above persistence and should not depend of persistence
+	as required in deliverable 4.
+	(-0.5)
+
+Execution
+
+  Exception when adding patient with empty field
+
+  Same with wrong field in Add Observation Period
+
+  No input validation
+  (-0.5)
+
+
+General
+
+  UI: User interface OK.
+
+  The structure of the whole application is ok but improvements of package organization is necessary
+
+  The final result is relatively ok, could be better.
+	
+Total points: 23.5 / 25
+
+
